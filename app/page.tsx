@@ -17,8 +17,7 @@ export default function Home() {
       <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2">
-            <Image src="/eraksha.png" alt="eRaksha Logo" width={32} height={32} />
-            <span className="text-xl font-bold">eRaksha</span>
+            <Image src="/eraksha.png" alt="eRaksha Logo" width={120} height={80} />
           </Link>
 
           <nav className="hidden md:flex items-center gap-6">
