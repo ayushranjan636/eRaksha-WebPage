@@ -5,6 +5,8 @@ import { Button } from "@/components/ui/button"
 import { Shield, Eye, Clock, Bell, Lock, BarChart, Heart, ArrowRight, Smartphone, Globe, Brain } from "lucide-react"
 import FeatureCard from "@/components/feature-card"
 import { motion } from "framer-motion"
+import Image from "next/image"
+
 
 export default function FeaturesPage() {
   return (
