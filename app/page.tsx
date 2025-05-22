@@ -7,6 +7,8 @@ import FeatureCard from "@/components/feature-card"
 import { HeroSection } from "@/components/hero-section"
 import { PhoneCompanion } from "@/components/phone-companion"
 import { motion } from "framer-motion"
+import Image from "next/image"
+
 
 export default function Home() {
   return (
@@ -15,9 +17,10 @@ export default function Home() {
       <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2">
-            <Shield className="h-8 w-8 text-purple-600" />
+            <Image src="/eraksha.png" alt="eRaksha Logo" width={32} height={32} />
             <span className="text-xl font-bold">eRaksha</span>
           </Link>
+
           <nav className="hidden md:flex items-center gap-6">
             <Link href="/features" className="text-sm font-medium hover:text-purple-600 transition-colors">
               Features
