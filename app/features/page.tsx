@@ -15,7 +15,8 @@ export default function FeaturesPage() {
       <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2">
-            <Image src="/eraksha.png" alt="eRaksha Logo" width={120} height={80} />
+            <Shield className="h-8 w-8 text-purple-600" />
+            <span className="text-xl font-bold">eRaksha</span>
           </Link>
           <nav className="hidden md:flex items-center gap-6">
             <Link href="/features" className="text-sm font-medium text-purple-600 border-b-2 border-purple-600 pb-1">
