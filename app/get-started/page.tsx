@@ -6,6 +6,8 @@ import { Shield, Check } from "lucide-react"
 import { motion } from "framer-motion"
 import { SetupWizard } from "@/components/setup-wizard"
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
+import Image from "next/image"
+
 
 export default function GetStartedPage() {
   return (
